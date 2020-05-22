@@ -1,13 +1,15 @@
 import React from "react";
 import "./css/style.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import Navbar from "./components/Navbar/Navbar";
+import TourList from "./components/TourList";
 
 function App() {
   return (
-    <div className="App">
-      <h1>فونت ایران سنس</h1>
-      <i className="fas fa-home fa-7px" />
-    </div>
+    <React.Fragment>
+      <Navbar />
+      <TourList />
+    </React.Fragment>
   );
 }
 
