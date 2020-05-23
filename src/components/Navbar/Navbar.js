@@ -14,7 +14,7 @@ export default function Navbar() {
             <i className="fas fa-address-card" /> <a href="/">درباره ما</a>
           </li>
           <li>
-            <i class="fas fa-globe-americas pl-1" />
+            <i className="fas fa-globe-americas pl-1" />
             <a href="/">تورهای گردشگری</a>
           </li>
         </ul>
